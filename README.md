@@ -1,7 +1,7 @@
 # zproxy
 mysql proxy demo
 
-1） 导入 test.lsq
+1） 导入 test.sql
 
 2） 配置config.php
 

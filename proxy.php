@@ -5,7 +5,6 @@ $opt = getopt("d", [
     "port::",
     "pool::"
 ]);
-print_r($opt);
 if (empty($opt['ip']) || empty($opt['port']) || empty($opt['pool'])) {
     echo "examples:  php proxy.php --ip=0.0.0.0 --port=9501 --pool=4 -d" . PHP_EOL;
     return;
